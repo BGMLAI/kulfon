@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#18231f">
+  <meta name="description" content="Kulfon z Tubą to rozwijany projekt turbiny wiatrowej Offgritt. Zobacz konstrukcję, studia przepływu i zakres planowanej weryfikacji przy słabym wietrze.">
+  <title>Kulfon z Tubą | Offgritt</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Przejdź do treści</a>
+<header class="mast"><a class="brand" href="#main"><span class="mark" aria-hidden="true">◒</span> offgritt<span class="brand-sep">/</span><b>Kulfon z Tubą</b></a>
+  <nav aria-label="Główna nawigacja"><a href="#konstrukcja">Konstrukcja</a><a href="#slaby-wiatr">Słaby wiatr</a><a href="#film-zasada">Film</a><a href="#badania">Badania</a></nav>
+  <a class="nav-cta" href="#wspolpraca">Etap projektu</a>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="title">
+  <div class="hero-copy"><p class="eyebrow">Pracownia energii wiatrowej Offgritt</p>
+  <h1 id="title">Kulfon <em>z Tubą</em></h1><p class="lead">Kulfon z Tubą to rozwijany projekt turbiny wiatrowej. Projektujemy kanał powietrzny wokół trójłopatowego wirnika o średnicy 1,5 m, żeby zbadać pracę przy słabym wietrze.</p>
+  <div class="actions"><a class="btn accent" href="#konstrukcja">Zobacz konstrukcję</a><a class="textlink light" href="#film-zasada">Obejrzyj film</a></div></div>
+  <figure class="hero-figure">
+    <img id="hero-image" src="assets/kulfon-okragly-wlot.png" width="1536" height="1024" alt="Kulfon od strony okrągłego wlotu. W turkusowej Tubie widać trzy łopaty i nos wirnika." fetchpriority="high">
+    <figcaption>Wizualizacja Kulfona z okrągłym wlotem</figcaption>
+  </figure>
+</section>
+<section id="konstrukcja" class="section intro">
+  <div><p class="eyebrow ink">Konstrukcja</p><h2>Wirnik<br> i Tuba</h2></div>
+  <div class="prose"><p>Tuba jest kanałem przepływu powietrza otaczającym wirnik. Dokumentacja wirnika R35 opisuje skręcone łopaty, nos, ogon, podpory i prądnicę. Rolki przy nosie prowadzą wirnik bez centralnego wału.</p>
+  <p>Wzdłuż osi przepływu najpierw jest wlot, potem wirnik, a dalej rozszerzający się wylot. Od środka wirnika do czoła wlotu są około 24 cm, a do końca wylotu około 116 cm. Nos wystaje przed Tubę, ogon sięga za jej koniec.</p>
+  <p>W pakiecie PET 0,5 mm można prześledzić drogę części od płaskiego wykroju do formowania i połączenia. Ten pakiet ma własny bilans i nadal otwarty etap dopuszczenia do wykonania.</p>
+</div>
+</section>
+<section id="slaby-wiatr" class="section intro">
+  <div><p class="eyebrow ink">Słaby wiatr</p><h2>Ile mocy niesie wiatr?</h2></div>
+  <div class="prose">
+    <p>Przy tej samej powierzchni i gęstości powietrza wiatr o prędkości 3 m/s niesie jedną ósmą mocy wiatru o prędkości 6 m/s. Moc strugi rośnie z trzecią potęgą prędkości. Część tej mocy można odebrać na wirniku, a część traci się przy zamianie obrotu na prąd.</p>
+    <p>Małe turbiny mają próg rozpoczęcia wytwarzania energii elektrycznej. Nawet powyżej tego progu dostępna moc może być za mała dla wybranego odbiornika. Obrót wirnika sam w sobie nie wyznacza mocy elektrycznej.</p>
+    <p>Dla Kulfona istnieją obliczenia przy 3 m/s. W sprawdzonych wynikach moc elektryczna pod obciążeniem przy tej prędkości pozostaje niepotwierdzona.</p>
+    <p><a href="https://www.energy.gov/cmei/systems/windexchange/small-wind-guidebook">Źródło o prędkości startowej i krzywej mocy</a></p>
+  </div>
+</section>
+<section id="film-zasada" class="section single-films" aria-labelledby="single-films-title"><div class="single-films-intro"><p class="eyebrow ink">Pojedynczy Kulfon z Tubą</p><h2 id="single-films-title">Wiatr w ruchu.</h2><p>Schemat pokazuje kierunek napływu powietrza przez urządzenie.</p></div><div class="single-film-grid">
+  <figure class="single-film"><video controls playsinline preload="metadata" poster="assets/kulfon-kierunek-wiatru.webp"><source src="media/kulfon-kierunek-wiatru.mp4" type="video/mp4">Twoja przeglądarka nie obsługuje filmu.</video><figcaption><strong>Jak wiatr napędza Kulfona</strong><br>Schemat pokazuje kierunek napływu wiatru przez wlot, wirnik i dalej wylot. To ilustracja zasady działania, nie symulacja przepływu ani pomiar.</figcaption></figure>
+  <figure class="single-film"><video controls playsinline preload="metadata" poster="assets/kopula-r6-kadr.webp"><source src="media/kopula-r6-studium.mp4" type="video/mp4">Twoja przeglądarka nie obsługuje filmu.</video><figcaption><strong>Studium kopuły z dziesięcioma Kulfonami</strong><br>Wizualizacja wygenerowana na podstawie geometrii projektu. Pokazuje koncepcję rozmieszczenia wirników.</figcaption></figure>
+</div></section>
+
+<section id="badania" class="section study"><div class="section-head"><div><p class="eyebrow ink">Symulacja przepływu (CFD) · R16</p><h2>Próby wirnika i kanału</h2></div><p>W czterech konfiguracjach badawczych obliczono moc na wale przy wietrze 3 m/s i prędkości wirnika 20 rad/s. Najwyższą wartość w tej serii uzyskano dla wirnika z kanałem.</p></div>
+  <figure class="bars" aria-label="Modelowa moc na wale w czterech wariantach">
+  <div><span>Sam wirnik</span><i style="--w:56.9%"></i><b>13,66 W</b></div>
+  <div><span>Wirnik z nosem</span><i style="--w:63.2%"></i><b>15,16 W</b></div>
+  <div><span>Wirnik z kanałem</span><i style="--w:98.2%"></i><b>23,57 W</b></div>
+  <div><span>Nos i kanał</span><i style="--w:88.4%"></i><b>21,22 W</b></div>
+  <figcaption>Wartości pochodzą z modelu aerodynamicznego. Każda geometria miała inną siatkę obliczeniową. Wielkość błędu z tego tytułu pozostaje otwarta. Liczby opisują obliczoną moc mechaniczną na wale. </figcaption></figure></section>
+
+<section id="wspolpraca" class="section offer">
+  <div><p class="eyebrow ink">Etap projektu</p><h2>Przed próbami i sprzedażą</h2></div>
+  <div class="prose">
+    <p>Trwa integracja projektu i sprawdzanie sposobu wykonania części. Dopuszczenie do wykonania oraz próby formowania pozostają otwarte.</p>
+    <p>Do oceny pracy przy 3 m/s potrzebny jest pomiar prędkości wiatru i mocy elektrycznej pod określonym obciążeniem podczas tej samej próby.</p>
+    <p>Na tym etapie Kulfon nie jest dostępny w sprzedaży. Kanał zgłoszeń o dokumentację, części i wspólne próby nie jest jeszcze uruchomiony.</p>
+  </div>
+</section>
+
+</main><footer><a class="brand" href="#main"><span class="mark" aria-hidden="true">◒</span> offgritt</a><a href="#main">Na początek ↑</a></footer>
+</body></html>
